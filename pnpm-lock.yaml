@@ -29,9 +29,6 @@ importers:
       '@skzz-template/stores':
         specifier: workspace:*
         version: link:packages/stores
-      '@skzz-template/theme':
-        specifier: workspace:*
-        version: link:packages/theme
       '@skzz/platform':
         specifier: 0.0.0-alpha.73
         version: 0.0.0-alpha.73
@@ -40,7 +37,7 @@ importers:
         version: link:packages/entry
       '@vuesri/core':
         specifier: ^1.0.59
-        version: 1.0.59(@arcgis/core@4.31.5(@floating-ui/utils@0.2.8))(@vunk/core@1.2.1)(vue@3.5.13(typescript@5.6.3))
+        version: 1.0.59(@arcgis/core@4.31.5(@floating-ui/utils@0.2.8))(@vunk/core@1.2.3)(vue@3.5.13(typescript@5.6.3))
       '@vuesri/three':
         specifier: 0.0.4
         version: 0.0.4
@@ -48,8 +45,8 @@ importers:
         specifier: ^11.3.0
         version: 11.3.0(vue@3.5.13(typescript@5.6.3))
       '@vunk/core':
-        specifier: 1.2.1
-        version: 1.2.1
+        specifier: 1.2.3
+        version: 1.2.3
       '@vunk/form':
         specifier: ^1.4.4
         version: 1.4.4
@@ -328,8 +325,6 @@ importers:
 
   packages/entry: {}
 
-  packages/icons: {}
-
   packages/shared:
     dependencies:
       qs:
@@ -341,8 +336,6 @@ importers:
         version: 6.9.17
 
   packages/stores: {}
-
-  packages/theme: {}
 
   slidev:
     dependencies:
@@ -3033,8 +3026,8 @@ packages:
   '@vueuse/shared@9.13.0':
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
 
-  '@vunk/core@1.2.1':
-    resolution: {integrity: sha512-wzoBmm3zCm9+wvJ9gi7vPKxUoeBod8PEQ3NAaTr8C6kcZjoTLqGkMQaCVgl95GnvmQ/NoH4jkYAF9WaMcDihVw==}
+  '@vunk/core@1.2.3':
+    resolution: {integrity: sha512-wlpbLl2x7Re9z2qceZEvIvdaxCzfyTeDqo6xRu6TgsVf0mSiVMABFu7NAllYfaPKLUcqc1zwB0oawEaQl/bZ/A==}
 
   '@vunk/form@1.4.4':
     resolution: {integrity: sha512-i8bq8SIBkL7HQt2mmsAEjKyI8aFpEirTcc9EfH2N64c2wnVAodFSwYbVmeiXOYj+8jWguYFgQEob2kaz7safrQ==}
@@ -11218,11 +11211,11 @@ snapshots:
 
   '@vue/shared@3.5.13': {}
 
-  '@vuesri/core@1.0.59(@arcgis/core@4.31.5(@floating-ui/utils@0.2.8))(@vunk/core@1.2.1)(vue@3.5.13(typescript@5.6.3))':
+  '@vuesri/core@1.0.59(@arcgis/core@4.31.5(@floating-ui/utils@0.2.8))(@vunk/core@1.2.3)(vue@3.5.13(typescript@5.6.3))':
     dependencies:
       '@arcgis/core': 4.31.5(@floating-ui/utils@0.2.8)
       '@vueuse/core': 10.11.1(vue@3.5.13(typescript@5.6.3))
-      '@vunk/core': 1.2.1
+      '@vunk/core': 1.2.3
       lodash-es: 4.17.21
       vue: 3.5.13(typescript@5.6.3)
     transitivePeerDependencies:
@@ -11327,7 +11320,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vunk/core@1.2.1': {}
+  '@vunk/core@1.2.3': {}
 
   '@vunk/form@1.4.4': {}
 

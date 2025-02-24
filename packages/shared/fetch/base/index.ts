@@ -30,5 +30,5 @@ interface R<T> { // 一个自定义的泛型接口
   msg: string
 }
 
-export type CustomRequest = <T = any>(request: RestFetchRequest) => Promise<R<T>>
-export const request: CustomRequest = restFetch.request.bind(restFetch)
+export const request = restFetch.request.bind(restFetch) as
+  <T = any>(...args: Parameters<RestFetchRequest>) => Promise<R<T>>
