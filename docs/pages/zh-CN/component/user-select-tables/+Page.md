@@ -1,4 +1,4 @@
---- 
+---
 title: UserSelectTables
 lang: zh-CN
 ---
@@ -7,15 +7,6 @@ lang: zh-CN
 
 UserSelectTables
 
-
 ## Basic
 
-:::demo 
-user-select-tables/basic
-:::
-
 ## UserSelectTables Props
-
-:::props
-user-select-tables/src/ctx.ts
-:::

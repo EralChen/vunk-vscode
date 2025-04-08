@@ -1,4 +1,3 @@
-// import { restFetch } from '@skzz/platform/shared/fetch/platform'
 import type { User } from './types'
 
 export type * from './types'
