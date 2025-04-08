@@ -10,6 +10,7 @@ export default eslint({
     'array-callback-return': 'off',
     '@stylistic/indent': ['error', 2],
     '@stylistic/space-before-function-paren': ['error', 'always'],
+    'no-console': 'off',
   },
   ignores: [
     'node_modules',

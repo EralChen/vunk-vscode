@@ -1,0 +1,44 @@
+{
+  "publisher": "EralChen",
+  "name": "@vunk/vscode",
+  "displayName": "Copilot Chat Tools",
+  "version": "0.1.0",
+  "description": "提供便捷指令快速与 Copilot 进行交互。",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EralChen/vunk-vscode"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "main": "./dist/main.js",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "vunk-vscode.vunk",
+        "fullName": "Vunk",
+        "name": "vunk",
+        "description": "Hello, World!",
+        "isSticky": true,
+        "commands": []
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "@vscode/chat-extension-utils": "^0.0.0-alpha.5",
+    "@vscode/prompt-tsx": "^0.3.0-alpha.22"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.1"
+  }
+}
