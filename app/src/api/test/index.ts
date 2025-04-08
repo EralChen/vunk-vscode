@@ -5,7 +5,7 @@
  * zz-test 目录下有参考的示例
  */
 
-import { request } from '@skzz-template/shared/fetch/base'
+import { request } from '@skzz-template/shared/fetch'
 
 export function rTestData () {
   return request<{
@@ -14,6 +14,6 @@ export function rTestData () {
     url: '/test.json',
     method: 'GET',
   }).then((res) => {
-    return res.data
+    return res.datas
   })
 }
