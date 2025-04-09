@@ -3,7 +3,7 @@ import { renderPrompt } from '@vscode/prompt-tsx'
 import * as vscode from 'vscode'
 import { TranslatePrompt } from '../../prompt/translate'
 
-const PARTICIPANT_ID = 'vunk-vscode.vunk'
+const PARTICIPANT_ID = 'vunk-vscode-chat.vunk'
 
 export function registerVunkParticipant (
   _context: vscode.ExtensionContext,

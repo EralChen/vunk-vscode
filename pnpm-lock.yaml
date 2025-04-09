@@ -195,7 +195,7 @@ importers:
         version: 0.3.0-alpha.22
     devDependencies:
       '@types/vscode':
-        specifier: ^1.99.1
+        specifier: ^1.95.0
         version: 1.99.1
 
   internal/build-constants: {}

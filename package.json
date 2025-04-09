@@ -10,6 +10,7 @@
     "docs:build": "pnpm run -C docs build",
     "publish": "gulp -f scripts/publish.ts",
     "extension:watch": "pnpm run -C extension watch",
+    "extension:package": "vsce --packagePath extension --outDir extension/dist",
     "cc": "gulp -f scripts/create/component/index.ts",
     "ccd": "gulp -f scripts/create/component-docs/index.ts",
 
