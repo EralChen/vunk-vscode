@@ -1,0 +1,29 @@
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+// for the documentation about the tasks.json format
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "watch",
+      // 使用TypeScript监视模式的问题匹配器，用于在编译出错时提供错误信息
+      "problemMatcher": "$tsc-watch",
+      // 设置为后台任务，任务启动后会持续运行
+      "isBackground": true,
+      // 控制任务输出在界面中的呈现方式
+      "presentation": {
+        // 不自动显示任务输出面板
+        "reveal": "never",
+        // 将任务归类到"watchers"组中
+        "group": "watchers"
+      },
+      // 任务分组设置
+      "group": {
+        // 将任务归类为"build"类型
+        "kind": "build",
+        // 设置此任务为默认构建任务，可通过${defaultBuildTask}引用
+        "isDefault": true
+      }
+    }
+  ]
+}

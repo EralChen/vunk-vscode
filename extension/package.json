@@ -14,7 +14,7 @@
   ],
   "main": "./dist/main.js",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.95.0"
   },
   "activationEvents": [],
   "contributes": {
@@ -25,12 +25,17 @@
         "name": "vunk",
         "description": "Hello, World!",
         "isSticky": true,
-        "commands": []
+        "commands": [
+          {
+            "name": "translate",
+            "description": "翻译单词"
+          }
+        ]
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run build",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./"
   },

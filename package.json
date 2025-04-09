@@ -9,7 +9,7 @@
     "docs:dev": "pnpm run -C docs dev",
     "docs:build": "pnpm run -C docs build",
     "publish": "gulp -f scripts/publish.ts",
-    "estension:watch": "pnpm run -C extension watch",
+    "extension:watch": "pnpm run -C extension watch",
     "cc": "gulp -f scripts/create/component/index.ts",
     "ccd": "gulp -f scripts/create/component-docs/index.ts",
 

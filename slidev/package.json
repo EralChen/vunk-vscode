@@ -5,12 +5,15 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export",
+    "export": "slidev export --format png",
     "eject": "slidev theme eject"
   },
   "dependencies": {
     "@slidev/cli": "^0.48.7",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.51.1"
   }
 }
